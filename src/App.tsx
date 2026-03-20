@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence, useInView, useScroll, useTransform } from 'motion/react';
-import { Globe, Menu, X, ChevronDown, ArrowRight, Zap, Leaf, BarChart3, Shield, Cpu, Cloud, Settings, Activity, MapPin, Mail, Building2 } from 'lucide-react';
+import { Globe, Menu, X, ChevronDown, ArrowRight, Zap, Leaf, BarChart3, Shield, Cpu, Cloud, Settings, Activity, MapPin, Mail, Building2, Github } from 'lucide-react';
 import { ComposableMap, Geographies, Geography, Marker } from 'react-simple-maps';
 
 // --- Constants ---
@@ -623,9 +623,12 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               {/* Social placeholders */}
-              <div className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:text-[#00E5FF] hover:bg-white/10 transition-colors cursor-pointer">
+              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:text-[#00E5FF] hover:bg-white/10 transition-colors cursor-pointer">
                 <Globe className="w-5 h-5" />
-              </div>
+              </a>
+              <a href="https://github.com/aethravolt" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center text-gray-400 hover:text-[#00E5FF] hover:bg-white/10 transition-colors cursor-pointer">
+                <Github className="w-5 h-5" />
+              </a>
             </div>
           </div>
 
