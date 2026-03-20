@@ -639,6 +639,11 @@ const Footer = () => {
                   </a>
                 </li>
               ))}
+              <li>
+                <a href="#careers" className="text-gray-400 hover:text-[#00E5FF] transition-colors text-sm">
+                  招贤纳士 (Careers)
+                </a>
+              </li>
             </ul>
           </div>
 
