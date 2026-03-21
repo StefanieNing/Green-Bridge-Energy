@@ -617,7 +617,7 @@ const Footer = () => {
               <span className="text-2xl font-bold text-[#00E5FF]">V</span>
               <span className="text-2xl font-bold text-white tracking-wide">olt</span>
             </div>
-            <p className="text-gray-400 max-w-md mb-8">
+            <p className="text-gray-400 max-w-md mb-8 text-center">
               AI+能源驱动的“零碳新质生产力”运营商。<br/>
               以数据重塑能源世界，重新定义能源资产的运营方式。
             </p>
